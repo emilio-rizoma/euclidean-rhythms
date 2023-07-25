@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BAB40B2A6F87A9000410C6 /* EuclidianRhythmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAB40A2A6F87A9000410C6 /* EuclidianRhythmsApp.swift */; };
+		F4BAB40D2A6F87A9000410C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAB40C2A6F87A9000410C6 /* ContentView.swift */; };
+		F4BAB40F2A6F87AA000410C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BAB40E2A6F87AA000410C6 /* Assets.xcassets */; };
+		F4BAB4122A6F87AA000410C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BAB4112A6F87AA000410C6 /* Preview Assets.xcassets */; };
+		F4BAB41C2A6F87AA000410C6 /* EuclidianRhythmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAB41B2A6F87AA000410C6 /* EuclidianRhythmsTests.swift */; };
+		F4BAB4262A6F87AA000410C6 /* EuclidianRhythmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAB4252A6F87AA000410C6 /* EuclidianRhythmsUITests.swift */; };
+		F4BAB4282A6F87AA000410C6 /* EuclidianRhythmsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAB4272A6F87AA000410C6 /* EuclidianRhythmsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BAB4182A6F87AA000410C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BAB3FF2A6F87A9000410C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BAB4062A6F87A9000410C6;
+			remoteInfo = EuclidianRhythms;
+		};
+		F4BAB4222A6F87AA000410C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BAB3FF2A6F87A9000410C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BAB4062A6F87A9000410C6;
+			remoteInfo = EuclidianRhythms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4BAB4072A6F87A9000410C6 /* EuclidianRhythms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuclidianRhythms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BAB40A2A6F87A9000410C6 /* EuclidianRhythmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclidianRhythmsApp.swift; sourceTree = "<group>"; };
+		F4BAB40C2A6F87A9000410C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4BAB40E2A6F87AA000410C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BAB4112A6F87AA000410C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4BAB4172A6F87AA000410C6 /* EuclidianRhythmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuclidianRhythmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BAB41B2A6F87AA000410C6 /* EuclidianRhythmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclidianRhythmsTests.swift; sourceTree = "<group>"; };
+		F4BAB4212A6F87AA000410C6 /* EuclidianRhythmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuclidianRhythmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BAB4252A6F87AA000410C6 /* EuclidianRhythmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclidianRhythmsUITests.swift; sourceTree = "<group>"; };
+		F4BAB4272A6F87AA000410C6 /* EuclidianRhythmsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclidianRhythmsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BAB4042A6F87A9000410C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BAB4142A6F87AA000410C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BAB41E2A6F87AA000410C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BAB3FE2A6F87A9000410C6 = {
+			isa = PBXGroup;
+			children = (
+				F4BAB4092A6F87A9000410C6 /* EuclidianRhythms */,
+				F4BAB41A2A6F87AA000410C6 /* EuclidianRhythmsTests */,
+				F4BAB4242A6F87AA000410C6 /* EuclidianRhythmsUITests */,
+				F4BAB4082A6F87A9000410C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BAB4082A6F87A9000410C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BAB4072A6F87A9000410C6 /* EuclidianRhythms.app */,
+				F4BAB4172A6F87AA000410C6 /* EuclidianRhythmsTests.xctest */,
+				F4BAB4212A6F87AA000410C6 /* EuclidianRhythmsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BAB4092A6F87A9000410C6 /* EuclidianRhythms */ = {
+			isa = PBXGroup;
+			children = (
+				F4BAB40A2A6F87A9000410C6 /* EuclidianRhythmsApp.swift */,
+				F4BAB40C2A6F87A9000410C6 /* ContentView.swift */,
+				F4BAB40E2A6F87AA000410C6 /* Assets.xcassets */,
+				F4BAB4102A6F87AA000410C6 /* Preview Content */,
+			);
+			path = EuclidianRhythms;
+			sourceTree = "<group>";
+		};
+		F4BAB4102A6F87AA000410C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4BAB4112A6F87AA000410C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4BAB41A2A6F87AA000410C6 /* EuclidianRhythmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BAB41B2A6F87AA000410C6 /* EuclidianRhythmsTests.swift */,
+			);
+			path = EuclidianRhythmsTests;
+			sourceTree = "<group>";
+		};
+		F4BAB4242A6F87AA000410C6 /* EuclidianRhythmsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BAB4252A6F87AA000410C6 /* EuclidianRhythmsUITests.swift */,
+				F4BAB4272A6F87AA000410C6 /* EuclidianRhythmsUITestsLaunchTests.swift */,
+			);
+			path = EuclidianRhythmsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BAB4062A6F87A9000410C6 /* EuclidianRhythms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BAB42B2A6F87AA000410C6 /* Build configuration list for PBXNativeTarget "EuclidianRhythms" */;
+			buildPhases = (
+				F4BAB4032A6F87A9000410C6 /* Sources */,
+				F4BAB4042A6F87A9000410C6 /* Frameworks */,
+				F4BAB4052A6F87A9000410C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EuclidianRhythms;
+			productName = EuclidianRhythms;
+			productReference = F4BAB4072A6F87A9000410C6 /* EuclidianRhythms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BAB4162A6F87AA000410C6 /* EuclidianRhythmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BAB42E2A6F87AA000410C6 /* Build configuration list for PBXNativeTarget "EuclidianRhythmsTests" */;
+			buildPhases = (
+				F4BAB4132A6F87AA000410C6 /* Sources */,
+				F4BAB4142A6F87AA000410C6 /* Frameworks */,
+				F4BAB4152A6F87AA000410C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BAB4192A6F87AA000410C6 /* PBXTargetDependency */,
+			);
+			name = EuclidianRhythmsTests;
+			productName = EuclidianRhythmsTests;
+			productReference = F4BAB4172A6F87AA000410C6 /* EuclidianRhythmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4BAB4202A6F87AA000410C6 /* EuclidianRhythmsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BAB4312A6F87AA000410C6 /* Build configuration list for PBXNativeTarget "EuclidianRhythmsUITests" */;
+			buildPhases = (
+				F4BAB41D2A6F87AA000410C6 /* Sources */,
+				F4BAB41E2A6F87AA000410C6 /* Frameworks */,
+				F4BAB41F2A6F87AA000410C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BAB4232A6F87AA000410C6 /* PBXTargetDependency */,
+			);
+			name = EuclidianRhythmsUITests;
+			productName = EuclidianRhythmsUITests;
+			productReference = F4BAB4212A6F87AA000410C6 /* EuclidianRhythmsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BAB3FF2A6F87A9000410C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F4BAB4062A6F87A9000410C6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F4BAB4162A6F87AA000410C6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F4BAB4062A6F87A9000410C6;
+					};
+					F4BAB4202A6F87AA000410C6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F4BAB4062A6F87A9000410C6;
+					};
+				};
+			};
+			buildConfigurationList = F4BAB4022A6F87A9000410C6 /* Build configuration list for PBXProject "EuclidianRhythms" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BAB3FE2A6F87A9000410C6;
+			productRefGroup = F4BAB4082A6F87A9000410C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BAB4062A6F87A9000410C6 /* EuclidianRhythms */,
+				F4BAB4162A6F87AA000410C6 /* EuclidianRhythmsTests */,
+				F4BAB4202A6F87AA000410C6 /* EuclidianRhythmsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BAB4052A6F87A9000410C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BAB4122A6F87AA000410C6 /* Preview Assets.xcassets in Resources */,
+				F4BAB40F2A6F87AA000410C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BAB4152A6F87AA000410C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BAB41F2A6F87AA000410C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BAB4032A6F87A9000410C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BAB40D2A6F87A9000410C6 /* ContentView.swift in Sources */,
+				F4BAB40B2A6F87A9000410C6 /* EuclidianRhythmsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BAB4132A6F87AA000410C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BAB41C2A6F87AA000410C6 /* EuclidianRhythmsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BAB41D2A6F87AA000410C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BAB4262A6F87AA000410C6 /* EuclidianRhythmsUITests.swift in Sources */,
+				F4BAB4282A6F87AA000410C6 /* EuclidianRhythmsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BAB4192A6F87AA000410C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BAB4062A6F87A9000410C6 /* EuclidianRhythms */;
+			targetProxy = F4BAB4182A6F87AA000410C6 /* PBXContainerItemProxy */;
+		};
+		F4BAB4232A6F87AA000410C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BAB4062A6F87A9000410C6 /* EuclidianRhythms */;
+			targetProxy = F4BAB4222A6F87AA000410C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4BAB4292A6F87AA000410C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4BAB42A2A6F87AA000410C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BAB42C2A6F87AA000410C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EuclidianRhythms/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.EuclidianRhythms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BAB42D2A6F87AA000410C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EuclidianRhythms/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.EuclidianRhythms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4BAB42F2A6F87AA000410C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.EuclidianRhythmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuclidianRhythms.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EuclidianRhythms";
+			};
+			name = Debug;
+		};
+		F4BAB4302A6F87AA000410C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.EuclidianRhythmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuclidianRhythms.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EuclidianRhythms";
+			};
+			name = Release;
+		};
+		F4BAB4322A6F87AA000410C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.EuclidianRhythmsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EuclidianRhythms;
+			};
+			name = Debug;
+		};
+		F4BAB4332A6F87AA000410C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.EuclidianRhythmsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EuclidianRhythms;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BAB4022A6F87A9000410C6 /* Build configuration list for PBXProject "EuclidianRhythms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BAB4292A6F87AA000410C6 /* Debug */,
+				F4BAB42A2A6F87AA000410C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BAB42B2A6F87AA000410C6 /* Build configuration list for PBXNativeTarget "EuclidianRhythms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BAB42C2A6F87AA000410C6 /* Debug */,
+				F4BAB42D2A6F87AA000410C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BAB42E2A6F87AA000410C6 /* Build configuration list for PBXNativeTarget "EuclidianRhythmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BAB42F2A6F87AA000410C6 /* Debug */,
+				F4BAB4302A6F87AA000410C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BAB4312A6F87AA000410C6 /* Build configuration list for PBXNativeTarget "EuclidianRhythmsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BAB4322A6F87AA000410C6 /* Debug */,
+				F4BAB4332A6F87AA000410C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BAB3FF2A6F87A9000410C6 /* Project object */;
+}
