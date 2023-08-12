@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var steps = 13.0
     @State private var pulses = 5.0
-    @State private var sequencer: [Int] = []
+    @State private var sequencer: [Euclidian] = []
     var body: some View {
         ZStack() {
             Color("PrimaryColor").ignoresSafeArea()
@@ -19,8 +19,8 @@ struct ContentView: View {
                 Spacer()
                 SequencerView(sequencer: $sequencer)
                 Spacer()
-                SliderView(val: $steps)
-                SliderView(val: $pulses)
+                SliderView(val: $steps, title: "steps")
+                SliderView(val: $pulses, title: "pulses")
                 Spacer()
                 Button("Generate") {
                     sequencer = EuclideanAlgorithm().generateEuclidean(steps: Int(steps), pulses: Int(pulses))

@@ -8,16 +8,21 @@
 import SwiftUI
 
 struct SequencerView: View {
-    @Binding var sequencer: [Int]
+    @Binding var sequencer: [Euclidian]
     var body: some View {
         if(!sequencer.isEmpty)
         {
-            HStack {
-                ForEach(sequencer.indices, id: \.self ) { index in
-                    Rectangle()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 15.0)
-                        .foregroundColor(sequencer[index] == 0 ? Color( .white) : Color("AccentColor"))
+            VStack(alignment: .leading) {
+                ForEach(sequencer, id: \.id) { chunk in
+                    HStack{
+                        ForEach(chunk.pattern.indices, id: \.self ) { i in
+                            let pattern = chunk.pattern
+                            Rectangle()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 15.0)
+                                .foregroundColor(pattern[i] == 0 ? Color( .white) : Color("AccentColor"))
+                        }
+                    }
                 }
             }
             .padding(.vertical)
