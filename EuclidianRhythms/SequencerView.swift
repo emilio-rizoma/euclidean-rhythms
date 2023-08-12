@@ -7,6 +7,18 @@
 
 import SwiftUI
 
+struct StepView: View {
+    @State var step: Int
+    @State var pulse: Int
+
+    var body: some View {
+        RoundedRectangle(cornerSize: CGSize(width: 1.5, height: 1.5))
+        .aspectRatio(contentMode: .fit)
+        .foregroundColor(pulse == 0 ? Colors.secondary.value : Colors.accent.value)
+        .border(step % 4 == 0 ? Colors.hightlight.value : Colors.secondary.value, width: 1.5)
+    }
+}
+
 struct SequencerView: View {
     @Binding var sequencer: [Euclidian]
     var body: some View {
@@ -17,10 +29,12 @@ struct SequencerView: View {
                     HStack{
                         ForEach(chunk.pattern.indices, id: \.self ) { i in
                             let pattern = chunk.pattern
-                            Rectangle()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 15.0)
-                                .foregroundColor(pattern[i] == 0 ? Color( .white) : Color("AccentColor"))
+                            Text("\(i + 1)")
+                                .foregroundColor(.white)
+                                .font(.system(size: 12.0))
+                                .frame(maxWidth: 14)
+                                .background(StepView(step: i, pulse: pattern[i]))
+                                .padding(.vertical, 2)
                         }
                     }
                 }
@@ -29,6 +43,7 @@ struct SequencerView: View {
         } else
         {
             Text("Result")
+                .foregroundColor(Colors.text.value)
                 .padding(.all)
         }
     }

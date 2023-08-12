@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var steps = 13.0
+    @State private var steps = 16.0
     @State private var pulses = 5.0
     @State private var sequencer: [Euclidian] = []
     var body: some View {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F49296A72A8705820009BEAE /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = F49296A62A8705820009BEAE /* Algorithms */; };
+		F49296A92A875E030009BEAE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49296A82A875E030009BEAE /* Colors.swift */; };
 		F49D77A02A70DDB50072E87B /* VG5000-Regular_web.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F49D779F2A70DDB50072E87B /* VG5000-Regular_web.ttf */; };
 		F4BAB40B2A6F87A9000410C6 /* EuclidianRhythmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAB40A2A6F87A9000410C6 /* EuclidianRhythmsApp.swift */; };
 		F4BAB40D2A6F87A9000410C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAB40C2A6F87A9000410C6 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F49296A82A875E030009BEAE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F49D779A2A70DC6C0072E87B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F49D779F2A70DDB50072E87B /* VG5000-Regular_web.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VG5000-Regular_web.ttf"; sourceTree = "<group>"; };
 		F4BAB4072A6F87A9000410C6 /* EuclidianRhythms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuclidianRhythms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 				F4BAB40E2A6F87AA000410C6 /* Assets.xcassets */,
 				F4BAB4102A6F87AA000410C6 /* Preview Content */,
 				F4F87B5B2A732481000CDC40 /* HeaderView.swift */,
+				F49296A82A875E030009BEAE /* Colors.swift */,
 			);
 			path = EuclidianRhythms;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				F4F87B5C2A732481000CDC40 /* HeaderView.swift in Sources */,
 				F4BAB40D2A6F87A9000410C6 /* ContentView.swift in Sources */,
 				F4D206382A732DB700C9839F /* EuclideanAlgorithm.swift in Sources */,
+				F49296A92A875E030009BEAE /* Colors.swift in Sources */,
 				F4F87B5A2A732469000CDC40 /* SliderView.swift in Sources */,
 				F4BAB40B2A6F87A9000410C6 /* EuclidianRhythmsApp.swift in Sources */,
 				F4F87B582A73016F000CDC40 /* SequencerView.swift in Sources */,

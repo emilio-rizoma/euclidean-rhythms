@@ -14,10 +14,10 @@ struct HeaderView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120.0)
-                .foregroundColor(Color("AccentColor"))
+                .foregroundColor(Colors.accent.value)
             Text("Euclidian Rhythms!")
                 .font(Font.custom("VG5000-Regular", size: 28))
-                .foregroundColor(Color("TextColor"))
+                .foregroundColor(Colors.text.value)
         }
     }
 }
